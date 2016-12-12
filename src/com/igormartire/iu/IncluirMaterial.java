@@ -13,7 +13,7 @@ public class IncluirMaterial {
     }
 
     public void executar() {
-        Material m = getMaterial();
+        Material m = recebeMaterial();
         boolean incluido = this.daoMaterial.incluir(m);
         if (incluido) {
             System.out.println("Material incluído.");
@@ -22,7 +22,7 @@ public class IncluirMaterial {
         }
     }
 
-    private Material getMaterial() {
+    private Material recebeMaterial() {
         return null;
     }
 
