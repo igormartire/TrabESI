@@ -1,6 +1,7 @@
 package com.igormartire.iu;
 
 import com.igormartire.dominio.DAO;
+import com.igormartire.dominio.DAOMaterial;
 import com.igormartire.dominio.Material;
 
 public class IncluirMaterial {
@@ -26,6 +27,6 @@ public class IncluirMaterial {
     }
 
     public static void main(String[] args) {
-	// write your code here
+      new IncluirMaterial(new DAOMaterial()).executar();
     }
 }
