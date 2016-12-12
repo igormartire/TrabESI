@@ -1,6 +1,7 @@
 package com.igormartire.dominio;
 
 public class Material {
+
   private String nome;
   private String descricao;
   private double precoUnitario;
