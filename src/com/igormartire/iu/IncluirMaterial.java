@@ -54,7 +54,7 @@ public class IncluirMaterial {
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    new IncluirMaterial(new DAOMaterial(), scanner).executar();
+    new IncluirMaterial(new DAOMaterial("materiais.txt"), scanner).executar();
     scanner.close();
   }
 }
