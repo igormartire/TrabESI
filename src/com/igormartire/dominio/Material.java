@@ -6,7 +6,7 @@ public class Material {
   private String descricao;
   private double precoUnitario;
 
-  Material(String nome, String descricao, double precoUnitario) {
+  public Material(String nome, String descricao, double precoUnitario) {
     this.nome = nome;
     this.descricao = descricao;
     this.precoUnitario = precoUnitario;
