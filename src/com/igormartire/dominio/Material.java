@@ -38,7 +38,7 @@ public class Material {
 
   @Override
   public String toString() {
-    return String.format("%s,%s,%.2f", this.nome, this.descricao, this.precoUnitario);
+    return String.format("`%s`,`%s`,%.2f", this.nome, this.descricao, this.precoUnitario);
   }
 
 }
